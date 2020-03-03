@@ -118,6 +118,8 @@ functions:
 #     NewOutput:
 #       Description: "Description for the output"
 #       Value: "Some output value"
+plugins:
+  - serverless-offline
 Resources:
     dynamodb5639c1a:
         Type: "AWS::DynamoDB::Table"
